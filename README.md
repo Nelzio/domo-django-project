@@ -19,6 +19,13 @@ source env/bin/activate
 pip install -r requirements-dev.txt
 ```
 
+*** create .env file and add to them SECRET_KEY and DEBUG of your project  ***
+```bash
+SECRET_KEY=h5c(wc=n#_za^i9m2# # replace
+DEBUG=True # you can replace
+```
+
+
 ## Install prod dependencies
 ```bash
 pip install -r requirements.txt
